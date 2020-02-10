@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # rgooglefit
 
-The goal of rgooglefit is to provide an R wrapper for the Google Fit API. Currently in development.
+The goal of rgooglefit is to provide an R wrapper for the Google Fit V1 API. Currently in development.
 
 
 This project uses the [httr package](https://httr.r-lib.org/index.html).
