@@ -1,0 +1,28 @@
+---
+title: "Getting Sessions"
+author: "Kyle Bochanski"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Getting Sessions
+
+Google Fitness Store *Sessions* are a period of time during which an activity occurred. Currently, `get_sessions()` returns all session you have saved in the database.
+
+```{r,eval=FALSE}
+library(rgooglefit)
+
+get_sessions()
+```
+
