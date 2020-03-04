@@ -1,12 +1,12 @@
 Package: rgooglefit
-Title: What the Package Does (One Line, Title Case)
+Title: Get Data From Google Fitness Store
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Kyle",
+           family = "Bochanski",
            role = c("aut", "cre"),
-           email = "first.last@example.com")
-Description: What the package does (one paragraph).
+           email = "kbochansk@gmail.com")
+Description: This package simplifies the process of getting Google Fitness Store data into R.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

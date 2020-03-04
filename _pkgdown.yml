@@ -1,0 +1,8 @@
+template:
+  params:
+    bootswatch: flatly
+reference:
+- title: Get Data From Google Fitness Store
+  desc:  These are various functions for hitting Fitness Store endpoints.
+  contents:
+  - get_sessions
